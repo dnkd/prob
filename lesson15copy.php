@@ -32,7 +32,7 @@
  pg_query($dbconn,"insert into dte1234rentiev_sotr 
 			    (nom,f,i,o,age,salary)
 			     values 
-			    ('6','Terentiev','Dmitry','Michailovich','22','1000000');"
+			    ('6','Terentiev','Dmitry','Michailovich','25','1000000');"
 			);
 //	 id serial,
 
@@ -44,7 +44,7 @@
  
 //$qresult=pg_query($dbconn,"select * from dte1234rentiev_sotr;");
 
-$qresult=pg_query($dbconn,"select * from emedvedevGoods22;");
+$qresult=pg_query($dbconn,"select * from emedvedevGoods27;");
 
 // $qresult=pg_query($dbconn,"select * from dte1234rentiev_sotr order by id;");
  $a=pg_fetch_all($qresult);
